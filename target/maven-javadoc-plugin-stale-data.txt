@@ -1,0 +1,52 @@
+@options
+@packages
+@argfile
+--class-path
+'D:/Siddharth/FileHandler/FileHandlerAPI/target/classes;C:/Users/Vinayak Kale/.m2/repository/org/json/json/20180130/json-20180130.jar;C:/Users/Vinayak Kale/.m2/repository/org/apache/maven/skins/maven-fluido-skin/1.10.0/maven-fluido-skin-1.10.0.jar;C:/Users/Vinayak Kale/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/Vinayak Kale/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'D:/Siddharth/FileHandler/FileHandlerAPI/src/main/java;D:/Siddharth/FileHandler/FileHandlerAPI/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022 Div-D Group-4. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/Siddharth/FileHandler/FileHandlerAPI/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'FileHandler API 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'FileHandler API 1.0-SNAPSHOT API'
+com.filehandler
+com.webfilehandler
+'D:/Siddharth/FileHandler/FileHandlerAPI/src/main/java/com/filehandler/CHRooted.java'
+'D:/Siddharth/FileHandler/FileHandlerAPI/src/main/java/com/filehandler/FileHandler.java'
+'D:/Siddharth/FileHandler/FileHandlerAPI/src/main/java/com/filehandler/FileStats.java'
+'D:/Siddharth/FileHandler/FileHandlerAPI/src/main/java/com/webfilehandler/App.java'
+D:\Siddharth\FileHandler\FileHandlerAPI\src\main\java = 1647081158639
+D:\Siddharth\FileHandler\FileHandlerAPI\target\generated-sources\annotations = 1647082474172
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\allclasses-index.html = 1647090139648
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\allpackages-index.html = 1647090139650
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\element-list = 1647090139556
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\help-doc.html = 1647090139679
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\index-all.html = 1647090139671
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\index.html = 1647090139629
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\jquery-ui.overrides.css = 1647090139711
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\member-search-index.js = 1647090139655
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\module-search-index.js = 1647090139652
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\overview-summary.html = 1647090139672
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\overview-tree.html = 1647090139624
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\package-search-index.js = 1647090139653
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\script.js = 1647090139682
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\search.js = 1647090139685
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\stylesheet.css = 1647090139681
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\tag-search-index.js = 1647090139655
+D:\Siddharth\FileHandler\FileHandlerAPI\target\site\apidocs\type-search-index.js = 1647090139654

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.webfilehandler","l":"App"},{"p":"com.filehandler","l":"CHRooted"},{"p":"com.filehandler","l":"FileHandler"},{"p":"com.filehandler","l":"FileStats.FileInfo"},{"p":"com.filehandler","l":"FileStats"}];updateSearchResults();

@@ -1,0 +1,173 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<organization>
+		<name>Div-D Group-4</name>
+	</organization>
+	<name>FileHandler API</name>
+	<description>
+		FileHandler API is a general purpose file system API, which can be used for all basic file operations, such as getting file metadata, reading, writing, deleting files.
+	</description>
+	<url>http://localhost:8000</url>
+	<developers>
+		<developer>
+			<id>23</id>
+			<name>Soham Sathe</name>
+			<email>soham.sathe20@vit.edu</email>
+			<roles>
+				<role>
+					Logic and concept building
+				</role>
+				<role>
+					Java and plugin version control
+				</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>27</id>
+			<name>Swami Sonawane</name>
+			<email>swami.sonawane20@vit.edu</email>
+			<roles>
+				<role>
+					Core API
+				</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>25</id>
+			<name>Venkatesh Somani</name>
+			<email>venkatesh.somani20@vit.edu</email>
+			<roles>
+				<role>
+					Code structure
+				</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>22</id>
+			<name>Amitabh Shirsat</name>
+			<email>amitabh.shirsat20@vit.edu</email>
+			<roles>
+				<role>
+					Testing
+				</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>24</id>
+			<name>Dhiraj Solunke</name>
+			<email>dhiraj.solunke20@vit.edu</email>
+			<roles>
+				<role>
+					API documentation
+				</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>21</id>
+			<name>Shubham Shinkhede</name>
+			<email>shubham.shinkhede20@vit.edu</email>
+			<roles>
+				<role>
+					Project documentation
+				</role>
+			</roles>
+		</developer>
+	</developers>
+	<licenses>
+		<license>
+			<name>Proprietry</name>
+			<comments>Currently, the source code is closed, and must not be used anywhere as it is still under development.</comments>
+		</license>
+	</licenses>
+	<groupId>com.filehandler</groupId>
+	<artifactId>filehandler</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<modelVersion>4.0.0</modelVersion>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.release>17</maven.compiler.release>
+	</properties>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.3.2</version>
+			</plugin>
+		</plugins>
+	</reporting>
+	<dependencies>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180130</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.skins</groupId>
+			<artifactId>maven-fluido-skin</artifactId>
+			<version>1.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<pluginManagement>
+			<!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+			<plugins>
+				<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+				<plugin>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>3.1.0</version>
+				</plugin>
+				<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.0</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.5.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.8.2</version>
+				</plugin>
+				<!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+				<plugin>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.11.0</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-project-info-reports-plugin</artifactId>
+					<version>3.0.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<distributionManagement>
+		<repository>
+			<id>archiva.internal</id>
+			<name>Internal Release Repository</name>
+			<url>http://localhost:8080/repository/internal</url>
+		</repository>
+	</distributionManagement>
+</project>
